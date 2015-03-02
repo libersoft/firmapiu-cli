@@ -1,7 +1,7 @@
 /**
  * 
  */
-package firmapiucli;
+package it.libersoft.firmapiucli;
 
 import java.io.BufferedReader;
 import java.io.Console;
@@ -22,7 +22,7 @@ import java.util.TreeSet;
 
 import org.bouncycastle.cms.CMSException;
 
-import firmapiu.CommandProxyInterface;
+import it.libersoft.firmapiu.cades.CommandProxyInterface;
 
 
 /**
@@ -81,7 +81,7 @@ public class FirmapiuCLI {
 		/*for(int k=0;k<args.length;k++){
 			System.out.println(args[k]+" "+args[k].length());
 		}*/
-		ResourceBundle rb = ResourceBundle.getBundle("firmapiu.lang.locale",Locale.getDefault());
+		ResourceBundle rb = ResourceBundle.getBundle("it.libersoft.firmapiu.lang.locale",Locale.getDefault());
 		
 		//Inizializza la Console
 		Console console=System.console();
