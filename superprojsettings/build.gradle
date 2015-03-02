@@ -4,4 +4,14 @@ allprojects {
 
 subprojects {
   //Put instructions for each sub project
+apply plugin: "java"
+apply plugin: "eclipse"
 }
+
+//Common Project specific stuff
+project(':firmapiu-cli') {
+  dependencies {
+    compile project(':firmapiulib')
+  }
+}
+
