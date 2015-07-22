@@ -20,3 +20,6 @@ bin/
 #Ignora il build di gradle
 build/
 .gradle
+
+#ignora READ.txt
+READ.txt

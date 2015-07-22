@@ -156,7 +156,7 @@ public class FirmapiuCLI {
 					System.out.println(key+" :");
 					Object value=result.get(key);
 					if(value instanceof String)
-						System.out.println("\tOK! P7M salvato in -> "+(String)value);
+						System.out.println("\tOK! P7MFILE salvato in -> "+(String)value);
 					else if(value instanceof FileNotFoundException){
 						System.err.println("\tErrore: File non trovato!");
 						System.err.println("\t"+((FileNotFoundException)value).getMessage());
